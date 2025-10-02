@@ -20,6 +20,8 @@ class RoleResource extends Resource
 
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
 
+    protected static string|null|\UnitEnum $navigationGroup = 'Utilisateurs';
+
     public static function form(Schema $schema): Schema
     {
         return RoleForm::configure($schema);

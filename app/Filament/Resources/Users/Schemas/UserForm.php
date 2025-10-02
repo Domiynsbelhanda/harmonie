@@ -36,7 +36,7 @@ class UserForm
                 ])
                 ->columns(2),
 
-            Section::make('Rôles & Permissions')
+            Section::make('Rôles')
                 ->schema([
                     Forms\Components\Select::make('roles')
                         ->label('Rôles')
