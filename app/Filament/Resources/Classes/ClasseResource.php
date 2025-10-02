@@ -23,7 +23,7 @@ class ClasseResource extends Resource
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
 
     protected static ?string $recordTitleAttribute = 'Classe';
-    protected static string|null|\UnitEnum $navigationGroup = 'École / Classes';
+    protected static string|null|\UnitEnum $navigationGroup = 'Elèves / Classes';
 
     public static function form(Schema $schema): Schema
     {
